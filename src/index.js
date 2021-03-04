@@ -1,4 +1,11 @@
-import './styles.css'
-import codegen from 'codegen.macro'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-codegen`module.exports = require('@kentcdodds/react-workshop-app/codegen')`
+import App from './App'
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+)

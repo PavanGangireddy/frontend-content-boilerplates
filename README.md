@@ -1,39 +1,111 @@
-### Helpful Emoji 🐨 💪 🏁 💰 💯 🦉 📜 💣 👨‍💼 🚨
+<div style="text-align:center">
+    <h1>Coding Practice Title</h1>
+</div>
 
-Each exercise has comments in it to help you get through the exercise. These fun
-emoji characters are here to help you.
+The goal of this tutorial is to quickly get you off the ground with `React`
+concepts. This tutorial has hands-on exercises which I consider to be the most
+important part of this tutorial.
 
-- **Kody the Koala** 🐨 will tell you when there's something specific you should
-  do
-- **Matthew the Muscle** 💪 will indicate what you're working with an exercise
-- **Chuck the Checkered Flag** 🏁 will indicate that you're working with a final
-  version
-- **Marty the Money Bag** 💰 will give you specific tips (and sometimes code)
-  along the way
-- **Hannah the Hundred** 💯 will give you extra challenges you can do if you
-  finish the exercises early.
-- **Olivia the Owl** 🦉 will give you useful tidbits/best practice notes and a
-  link for elaboration and feedback.
-- **Dominic the Document** 📜 will give you links to useful documentation
-- **Berry the Bomb** 💣 will be hanging around anywhere you need to blow stuff
-  up (delete code)
-- **Peter the Product Manager** 👨‍💼 helps us know what our users want
-- **Alfred the Alert** 🚨 will occasionally show up in the test failures with
-  potential explanations for why the tests are failing.
+The way this coding practice works is that first, you have to checkout this
+project on your computer, and run the application locally. Then open the
+application on a browser and you can go through the tutorial as you like.
 
-## Contributors
+![Learn React App](./public/Learn_React_App.gif 'Learn React App')
 
-Thanks goes to these wonderful people
-([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+## Checkout
 
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+Checkout the project to your computer using `git`:
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+```
+git clone [TODO: Add URL here]
+```
 
-This project follows the
-[all-contributors](https://github.com/kentcdodds/all-contributors)
-specification. Contributions of any kind welcome!
+### Installing Dependencies
 
-## Coding Practice Raising a Query
+On the root directory of the project please execute below commands to install
+all the project dependencies.
+
+```
+cd [TODO: add coding-practice-name]
+```
+
+```
+npm install
+```
+
+### Starting application
+
+On the root directory of the project please execute below commands to start the
+application:
+
+```
+npm start
+```
+
+After this is complete, the application will be deployed on port `3000`. Open a
+browser and navigate to `localhost:3000`.
+
+---
+
+## Following the tutorial
+
+Tutorials on this application are fairly straightforward to follow. Each
+tutorial has one or more exercises. You'll see once you are in the tutorial.
+
+The exercise panel has split view. The left-hand side of the screen has your
+solution rendered and the right-hand side of the screen has the target solution.
+Right above the exercise panel, you'll see the location of exercise files.
+
+Please open the exercise file on your favorite editor (VS Code, Atom, Sublime,
+IntelliJ etc.) and start making changes by following the instructions. Exercise
+files are heavily commented. Read through the comments and you should be able to
+write up the solution. If you have any confusion you can refer to the solution
+file for that exercise. Every time you make changes to the exercise file and
+save it, the browser will reload automatically reflecting your changes.
+
+### Coding Practice Comment Guide
+
+Most comments in the exercise files start with one of the below signs. This is
+to help you understand what you should do to the code immediately following
+these comments.
+
+🏆 - **Trophy** - Describes the overall goal of the exercise. You can find this
+at the top of the exercise file.
+
+💡 - **Light Bulb** - General information regarding the code immediately
+following this comment. You might find it throughout the code. No action is
+required on your part, just read them.
+
+✏️ - **Pencil** - You are supposed to edit the code immediately following this
+comment. It is followed by a description of the change that you need to do.
+
+🧭 - **Compass** - When the description of change is not enough, the compass
+will give you more direction. You will find it alongside the pencil when more
+elaborate instruction is deemed necessary.
+
+🚨 - **Alarm** - This means danger. Read the comment carefully. Usually, it's
+used to say you shouldn't change the code immediately following this. It will
+create havoc.
+
+### FAQ
+
+<details>
+    <summary>Which browser should I use?</summary>
+    <p>It is highly recommeded to use chrome to complete this coding practice.</p>
+</details>
+
+<details>
+    <summary>Which code editor should I use for exercise?</summary>
+    <p>VS Code.</p>
+</details>
+
+<details>
+    <summary>I accidentally deleted something in an coding practice that I shouldn't have. What should I do?</summary>
+    <p>The easiest way is to just revert back to the previous version on your editor. If you want to start anew, then just checkout that particular file from GitHub again using something like:<pre><code>git checkout HEAD --  exercise/01-helloWorld.js</code></pre>
+    </p>
+</details>
+
+## Contribution
+
+If you are facing any issues while setting up environment, feel free to open a
+issue in the learning portal.

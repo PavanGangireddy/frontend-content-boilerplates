@@ -1,13 +1,7 @@
 {
   "name": "advanced-react-hooks",
   "private": true,
-  "title": "Advanced React Hooks 🔥",
   "version": "1.0.0",
-  "description": "The best resources for you to learn advanced react hooks",
-  "keywords": [],
-  "homepage": "https://advanced-react-hooks.netlify.com/",
-  "license": "GPL-3.0-only",
-  "main": "src/index.js",
   "engines": {
     "node": "^10.13 || 12 || 14 || 15",
     "npm": ">=6"

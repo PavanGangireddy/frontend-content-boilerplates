@@ -9,9 +9,9 @@
     "react-app",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:jest/recommended",
     "airbnb",
-    "prettier",
-    "plugin:jest/recommended"
+    "prettier"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -26,6 +26,7 @@
     "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
     "react/state-in-constructor": "off",
     "react/react-in-jsx-scope": "off",
-    "react/jsx-uses-react": "off"
+    "react/jsx-uses-react": "off",
+    "no-console": "off"
   }
 }

@@ -3,6 +3,7 @@ import React, {Component} from 'react'
 class Counter extends Component {
   onIncrement() {}
   onDecrement() {}
+
   render() {
     return (
       <div style={style.container}>

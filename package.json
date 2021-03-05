@@ -29,7 +29,7 @@
     "run-all": "npm-run-all --parallel test lint"
   },
   "lint-staged": {
-    "src/**/*.{js}": [
+    "src/**/**/*.{js}": [
       "eslint --fix",
       "git add"
     ]

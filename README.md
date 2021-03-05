@@ -163,6 +163,9 @@ create havoc.
 - The Icons used in this section are Font Awesome Icons. Find them here.
 - Want to quickly review some of the concepts you’ve been learning? Take a look
   at the Cheat Sheets.
+- Install the
+  [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+  (Chrome (recommended))
 
 ### [FAQ](https://gist.github.com/PavanGangireddy/f36bbb8e69dd54d921b464fe2601ab1a)
 

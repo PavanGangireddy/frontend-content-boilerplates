@@ -1,18 +1,10 @@
 {
   "env": {
     "browser": true,
-    "es2021": true,
-    "jest/globals": true
+    "es2021": true
   },
   "parser": "babel-eslint",
-  "extends": [
-    "react-app",
-    "plugin:react/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:jest/recommended",
-    "airbnb",
-    "prettier"
-  ],
+  "extends": ["react-app", "airbnb", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -20,7 +12,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "jsx-a11y", "prettier", "jest"],
+  "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],

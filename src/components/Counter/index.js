@@ -3,7 +3,6 @@ import {Component} from 'react'
 class Counter extends Component {
   render() {
     const {counter} = this.state
-    console.log('hi')
     return (
       <div>
         <button type="button" onClick={this.onDecrement}>

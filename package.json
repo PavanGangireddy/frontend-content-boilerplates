@@ -30,7 +30,7 @@
     "run-all": "npm-run-all --parallel test lint:fix"
   },
   "lint-staged": {
-    "*.(js|html|css)": [
+    "./src/*.(js|html|css)": [
       "prettier --write",
       "git add"
     ],

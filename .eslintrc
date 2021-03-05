@@ -9,9 +9,9 @@
     "react-app",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:jest/recommended",
     "airbnb",
-    "prettier",
-    "plugin:jest/recommended"
+    "prettier"
   ],
   "parserOptions": {
     "ecmaFeatures": {

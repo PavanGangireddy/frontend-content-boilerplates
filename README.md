@@ -2,72 +2,75 @@
     <h1>Coding Practice Title</h1>
 </div>
 
-The goal of this tutorial is to quickly get you off the ground with `React`
-concepts. This tutorial has hands-on exercises which I consider to be the most
-important part of this tutorial.
+The goal of this project is to quickly get you off the ground with `React`
+concepts.
 
-The way this coding practice works is that first, you have to checkout this
-project on your computer, and run the application locally. Then open the
-application on a browser and you can go through the tutorial as you like.
+## Instructions
 
-![Learn React App](./public/Learn_React_App.gif 'Learn React App')
+**Read these instructions carefully. Understand exactly what is expected
+_before_ starting this project.**
 
-## Checkout
+### Commits
 
-Checkout the project to your computer using `git`:
+Commit your code regularly and meaningfully. This helps you and any
+collaborators in case you ever need to return to old code for any number of
+reasons.
 
-```
-git clone [TODO: Add URL here]
-```
+### Description
 
-### Installing Dependencies
+In this project you'll take this crypto currency tracker app and build two
+custom hooks that, when composed together, will allow users to set and persist a
+dark mode preference.[TODO: Changes for every project]
 
-On the root directory of the project please execute below commands to install
-all the project dependencies.
+## Project Set Up
 
-```
-cd [TODO: add coding-practice-name]
-```
-
-```
-npm install
-```
-
-### Starting application
-
-On the root directory of the project please execute below commands to start the
-application:
-
-```
-npm start
-```
+- Checkout the project to your computer using `git clone [TODO: Add URL here]`
+- CD into the project root directory `cd TODO: Add folder name here`
+- Download project dependencies by running `npm install`
+- Start up the app using `npm start`
 
 After this is complete, the application will be deployed on port `3000`. Open a
 browser and navigate to `localhost:3000`.
 
 ---
 
-## Following the tutorial
+## Project Completion Instructions
 
-Tutorials on this application are fairly straightforward to follow. Each
-tutorial has one or more exercises. You'll see once you are in the tutorial.
+Please open the project files locally and start making changes by following the
+instructions. Read through the comments and you should be able to write up the
+solution.
 
-The exercise panel has split view. The left-hand side of the screen has your
-solution rendered and the right-hand side of the screen has the target solution.
-Right above the exercise panel, you'll see the location of exercise files.
+If you have any confusion you can refer to the solution in the learning portal.
+[TODO: Add learning portal url solution here]
 
-Please open the exercise file on your favorite editor (VS Code, Atom, Sublime,
-IntelliJ etc.) and start making changes by following the instructions. Exercise
-files are heavily commented. Read through the comments and you should be able to
-write up the solution. If you have any confusion you can refer to the solution
-file for that exercise. Every time you make changes to the exercise file and
-save it, the browser will reload automatically reflecting your changes.
+<!-- Sample Project Completion Instructions Start -->
 
-### Coding Practice Comment Guide
+- Your todo list should display a list of todos, an input field, a submit button
+- Be sure to use the given files for building out these components.
+- <App /> will hold all the data needed for this project. It will also be the
+  container for your Todo Components. All of your application data will be
+  stored here on <App />. All of your handler functions should live here on
+  <App />.
+- <TodoList /> receives your Todos array and iterates over the list generating a
+  new <Todo /> for each element in the array.
+- <Todo /> is a component that takes in the todo data and displays the task to
+  the screen.
+- <TodoForm> will hold your input field and your Add Todo button.
+- Your input field should take in user input, and allow a user to press Enter or
+  click on the Submit Button to add a todo to your list.
+- Once a todo is submitted, the Todo List should re-render and show the added
+  todo.
 
-Most comments in the exercise files start with one of the below signs. This is
-to help you understand what you should do to the code immediately following
-these comments.
+<!-- Sample Project Completion Instructions End -->
+
+TODO: Add Project Completion instructions - specific to the Project TODO: Add
+gif of the project
+
+### Project Comment Guide
+
+Most comments in the project files start with one of the below signs. This is to
+help you understand what you should do to the code immediately following these
+comments.
 
 🏆 - **Trophy** - Describes the overall goal of the exercise. You can find this
 at the top of the exercise file.
@@ -87,25 +90,18 @@ elaborate instruction is deemed necessary.
 used to say you shouldn't change the code immediately following this. It will
 create havoc.
 
-### FAQ
+### Tips to Keep in Mind (TODO: Add Tips if any specific to this project)
 
-<details>
-    <summary>Which browser should I use?</summary>
-    <p>It is highly recommeded to use chrome to complete this coding practice.</p>
-</details>
+- All components you implement should go in the src/components directory.
+- The components should be named App.js, TodoList.js and Todo.js (as those are
+  the files being imported into the tests).
 
-<details>
-    <summary>Which code editor should I use for exercise?</summary>
-    <p>VS Code.</p>
-</details>
+### [FAQ](https://gist.github.com/PavanGangireddy/f36bbb8e69dd54d921b464fe2601ab1a)
 
-<details>
-    <summary>I accidentally deleted something in an coding practice that I shouldn't have. What should I do?</summary>
-    <p>The easiest way is to just revert back to the previous version on your editor. If you want to start anew, then just checkout that particular file from GitHub again using something like:<pre><code>git checkout HEAD --  exercise/01-helloWorld.js</code></pre>
-    </p>
-</details>
+TODO: Update this FAQ's gist with s3 url. try to get from server if possible
 
-## Contribution
+## Issues
 
 If you are facing any issues while setting up environment, feel free to open a
-issue in the learning portal.
+issue in the learning portal.[TODO: Add respective learning portal discussion
+link or think how to solve this]

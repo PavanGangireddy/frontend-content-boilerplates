@@ -8,9 +8,7 @@ class Counter extends Component {
   render() {
     return (
       <div>
-        <div style={style.buttons} onClick={this.onDecrement}>
-          -
-        </div>
+        <div onClick={this.onDecrement}>-</div>
         <div style={style.counter}>{this.state.counter}</div>
         <div style={style.buttons} onClick={this.onIncrement}>
           +

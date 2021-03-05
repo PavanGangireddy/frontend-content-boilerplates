@@ -158,8 +158,8 @@ create havoc.
 ### Tips to Keep in Mind (TODO: 7.Add Tips if any specific to this project)
 
 - All components you implement should go in the `src/components` directory.
-- Dont change the component names as those are the files being imported into the
-  tests.
+- Dont change the component folder names as those are the files being imported
+  into the tests.
 - The Icons used in this section are Font Awesome Icons. Find them here.
 - Want to quickly review some of the concepts you’ve been learning? Take a look
   at the Cheat Sheets.

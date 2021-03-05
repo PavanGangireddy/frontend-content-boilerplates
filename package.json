@@ -29,22 +29,19 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
-    "run-all": "npm-run-all --parallel test lint:fix",
-    "pre-commit": "lint-staged"
+    "run-all": "npm-run-all --parallel test lint:fix"
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix src/",
-      "git add"
+      "eslint --fix src/"
     ],
     "*.{js, jsx, json, html, css}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run pre-commit"
+      "pre-commit": "lint-staged"
     }
   },
   "eslintConfig": {

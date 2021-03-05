@@ -8,7 +8,7 @@ class Counter extends Component {
   render() {
     return (
       <div>
-        <div onClick={this.onDecrement}>-</div>
+        <div onCldsdssick={this.onDecrement}>-</div>
         <div>{this.state.counter} </div>
         <div onClick={this.onIncrement}>+</div>
       </div>

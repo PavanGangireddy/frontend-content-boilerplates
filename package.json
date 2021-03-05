@@ -38,11 +38,11 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix --no-warning",
+      "npm run lint:fix",
       "git add"
     ],
     "*.{js, jsx, json, html, css}": [
-      "prettier --write --no-warning",
+      "npm run format",
       "git add"
     ]
   },

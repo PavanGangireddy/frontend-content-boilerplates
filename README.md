@@ -48,8 +48,8 @@ If you have any confusion you can refer to the solution in the learning portal.
 Use the below reference images and try to achieve the design as close as
 possible.
 
-- [ ] [Reference 1](https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/responsive-website/vr-footer-section-xs-v1.png)
-- [ ] [Reference 2](https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/responsive-website/vr-footer-section-md-v1.png)
+- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/responsive-website/portfolio-footer-section-xs-v1.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/responsive-website/portfolio-footer-section-md-v1.png)
 
 <!-- Sample 1 Project Completion Instructions for app with single route Start -->
 
@@ -79,7 +79,7 @@ possible.
 
 <!-- Sample 2 Project Completion Instructions with multiple routes Start -->
 
-### Design Files
+### Routes Files
 
 Once you are done your application will have two routes:
 
@@ -110,16 +110,26 @@ Once you are done your application will have two routes:
 
 <!-- Sample 2 Project Completion Instructions with multiple routes End -->
 
+### Running the tests & Checking the report
+
+- Run the tests using `npm test`. Read the output and play around with it. The
+  tests are there to help you reach the final version
+- However sometimes you can accomplish the task and the tests still fail if you
+  implement things differently than the given solution.
+- Submit the solution after you have reached the final version
+- Check the report generated here TODO: Need to improvise this section
+
 ## Resources
 
-- Use the images given in the `public/img` folder.
+- Use the images given in the `public/img` folder for backgrounds
 - CSS Colors used:
   - #5a7184
   - #959ead
   - #19232d
   - #eef0f2
-
-TODO: 6.Add Project Completion instructions, Resources - specific to the Project
+- API - `https://apis.ccbp.in/numbers-fact` - TODO: Deploy Add swagger spec url
+  if needed TODO: 6.Add Project Completion instructions, Resources - specific to
+  the Project
 
 ### Project Comment Guide
 
@@ -147,10 +157,12 @@ create havoc.
 
 ### Tips to Keep in Mind (TODO: 7.Add Tips if any specific to this project)
 
-- All components you implement should go in the src/components directory.
-- The components should be named App.js, TodoList.js and Todo.js (as those are
-  the files being imported into the tests).
--
+- All components you implement should go in the `src/components` directory.
+- Dont change the component names as those are the files being imported into the
+  tests.
+- The Icons used in this section are Font Awesome Icons. Find them here.
+- Want to quickly review some of the concepts you’ve been learning? Take a look
+  at the Cheat Sheets.
 
 ### [FAQ](https://gist.github.com/PavanGangireddy/f36bbb8e69dd54d921b464fe2601ab1a)
 

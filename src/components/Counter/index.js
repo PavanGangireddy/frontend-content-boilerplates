@@ -10,7 +10,7 @@ class Counter extends Component {
       <div>
         <div onClick={this.onDecrement}>-</div>
         <div style={counter}>{this.state.counter}</div>
-        <div style={style.buttons} onClick={this.onIncrement}>
+        <div style={buttons} onClick={this.onIncrement}>
           +
         </div>
       </div>

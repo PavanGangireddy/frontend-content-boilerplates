@@ -2,11 +2,12 @@ import React, {Component} from 'react'
 
 class Counter extends Component {
   onIncrement() {}
+
   onDecrement() {}
 
   render() {
     return (
-      <div style={style.container}>
+      <div>
         <div style={style.buttons} onClick={this.onDecrement}>
           -
         </div>

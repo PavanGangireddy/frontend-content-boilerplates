@@ -32,10 +32,12 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix src/"
+      "npm run lint:fix",
+      "git add"
     ],
     "*.{js, jsx, json, html, css}": [
-      "prettier --write"
+      "npm run format",
+      "git add"
     ]
   },
   "husky": {

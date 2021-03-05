@@ -26,12 +26,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint .",
-    "run-all": "npm-run-all --parallel test lint"
+    "lint:fix": "eslint . --fix",
+    "run-all": "npm-run-all --parallel test lint:fix"
   },
   "lint-staged": {
-    "src/**/**/*.{js}": [
-      "eslint --fix",
+    "*.(js|html|css)": [
+      "prettier --write",
       "git add"
+    ],
+    ".js": [
+      "npm run lint:fix",
+      "npm run lint"
     ]
   },
   "husky": {

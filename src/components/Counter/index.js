@@ -1,16 +1,17 @@
-import React, {Component} from 'react'
+import {Component} from 'react'
 
 class Counter extends Component {
-  onIncrement() {}
-
-  onDecrement() {}
-
   render() {
+    const {counter} = this.state
     return (
       <div>
-        <div onCldsdssick={this.onDecrement}>-</div>
-        <div>{this.state.counter} </div>
-        <div onClick={this.onIncrement}>+</div>
+        <button type="button" onClick={this.onDecrement}>
+          -
+        </button>
+        <div>{counter} </div>
+        <button type="button" onClick={this.onIncrement}>
+          +
+        </button>
       </div>
     )
   }

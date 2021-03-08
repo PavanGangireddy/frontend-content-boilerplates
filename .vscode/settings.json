@@ -2,8 +2,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.detectIndentation": true,
-  "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": false,
+  "editor.fontFamily": "'Consolas', 'Courier New', monospace",
   "editor.rulers": [80],
   "editor.snippetSuggestions": "top",
   "editor.wordBasedSuggestions": false,
@@ -25,10 +24,14 @@
     "typescript",
     "typescriptreact"
   ],
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "material-icon-theme",
   "npm.runSilent": true,
   "editor.formatOnPaste": false,
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.smoothScrolling": true
+  "editor.smoothScrolling": true,
+  "files.associations": {
+    "*.json": "jsonc",
+    ".eslintrc": "jsonc"
+  }
 }

@@ -33,5 +33,6 @@
   "files.associations": {
     "*.json": "jsonc",
     ".eslintrc": "jsonc"
-  }
+  },
+  "eslint.alwaysShowStatus": true
 }

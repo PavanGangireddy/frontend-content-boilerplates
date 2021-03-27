@@ -1,0 +1,60 @@
+[
+  {
+    "question_id": "217b6f4f-49c1-4254-9a09-de4849669deb",
+    "ide_session_id": "505bf8ac-25f0-4f03-8630-7b38f2b87a14",
+    "short_text": "Review App",
+    "question_key": "reviews_app_1",
+    "question_text": "Question text will be auto generated from README.md file",
+    "content_type": "MARKDOWN",
+    "toughness": "MEDIUM",
+    "language": "ENGLISH",
+    "question_type": "IDE_BASED_CODING",
+    "question_asked_by_companies_info": [
+      {
+        "company_name": "GOOGLE"
+      }
+    ],
+    "question_format": "CODING_PRACTICE",
+    "test_cases": [
+      {
+        "test_case_enum": "will be auto generated from tests",
+        "display_text": "will be auto generated from tests",
+        "weightage": 10
+      }
+    ],
+    "multimedia": [
+      {
+        "multimedia_format": "IMAGE",
+        "multimedia_url": "https://d15dkfioxfhy94.cloudfront.net/tenxiitian_prod/AI-ML/knn/ccbp_images/distance_measures_12_option_1.png",
+        "thumbnail_url": "https://d15dkfioxfhy94.cloudfront.net/tenxiitian_prod/AI-ML/knn/ccbp_images/distance_measures_12_option_1.png"
+      }
+    ],
+    "solutions_metadata": [
+      {
+        "ide_session_id": "452f35d1-302a-4879-9d25-e465e36a5eb2",
+        "order": 1,
+        "title": {
+          "content": "Reviews App",
+          "content_type": "MARKDOWN"
+        },
+        "description": {
+          "content": "An approach to develop a Review App",
+          "content_type": "MARKDOWN"
+        }
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "title": {
+          "content": "Hint",
+          "content_type": "MARKDOWN"
+        },
+        "description": {
+          "content": "Use fixtures data and send as prod to the Reviews component",
+          "content_type": "MARKDOWN"
+        }
+      }
+    ]
+  }
+]

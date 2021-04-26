@@ -59,14 +59,6 @@ The app must have the following functionalities
   - `src/App.js`
   - `src/components/Home/index.js`
   - `src/components/Home/index.css`
-  - `src/components/TeamCard/index.js`
-  - `src/components/TeamCard/index.css`
-  - `src/components/TeamMatches/index.js`
-  - `src/components/TeamMatches/index.css`
-  - `src/components/LatestMatch/index.js`
-  - `src/components/LatestMatch/index.css`
-  - `src/components/MatchCard/index.js`
-  - `src/components/MatchCard/index.css`
   </details>
 
 #### Quick Tips

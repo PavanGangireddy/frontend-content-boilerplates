@@ -1,178 +1,135 @@
-<div style="text-align:center">
-    <h1>Project Title</h1>
+<!-- TODO: update the app name -->
+In this assignment let's build a **IPL Dashboard App** by applying the concepts we have learned till now.
+
+### Refer to images below:
+
+<!-- TODO: need to update output gif and alt text -->
+<br/>
+<div style="text-align: center;">
+    <img src="" alt="" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
+<br/>
 
-The goal of this project is to quickly get you off the ground with `React`
-concepts.
+<!-- TODO: update the design files -->
+#### Design Files
 
-## Instructions
+<details>
+<summary>Click to view the Design Files</summary>
 
-**Read these instructions carefully. Understand exactly what is expected
-_before_ starting this project.**
+- [Extra Small (Size < 576px) and Small (Size >= 576px) - Home]()
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home]()
 
-### Commits
+</details>
 
-Commit your code regularly and meaningfully. This helps you and any
-collaborators in case you ever need to return to old code for any number of
-reasons.
+### Project Set Up Instructions
 
-### Description
+<details>
+<summary>Click to view the Set Up Instructions</summary>
 
-In this project you'll take this crypto currency tracker app and build two
-custom hooks that, when composed together, will allow users to set and persist a
-dark mode preference.[TODO: 1. Add Description specific to project]
-
-TODO: 2.Add gif of the project
-
-## Project Set Up
-
-- Checkout the project to your computer using `git clone [TODO: 3.Add URL here]`
-- CD into the project root directory `cd TODO: 4.Add folder name here`
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
+</details>
 
-Once the set up is complete, you should see the application up and running at
-`localhost:3000`.
+### Project Completion Instructions
 
-## Project Completion Instructions
+<details>
+<summary>Click to view the Functionality to be added</summary>
 
-Please open the project files locally and start making changes by following the
-instructions. Read through the comments and you should be able to write up the
-solution.
+#### Add Functionality
 
-If you have any confusion you can refer to the solution in the learning portal.
-[TODO: 5.Add learning portal url solution here]
+The app must have the following functionalities
+<!-- TODO: update the functionality that has to be achieved -->
 
-### Design Files
 
-Use the below reference images and try to achieve the design as close as
-possible.
+  </details>
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/responsive-website/portfolio-footer-section-xs-v1.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/responsive-website/portfolio-footer-section-md-v1.png)
+<details>
+<summary>Click to view the Example response</summary>
 
-<!-- Sample 1 Project Completion Instructions for app with single route Start -->
+<!-- TODO: update the format of the data either that is received as response or that is being sent as props -->
 
-### Add Functionality
 
-- Your todo list should display a list of todos, an input field, a submit button
-- Be sure to use the given files for building out these components.
-- <App /> will hold all the data needed for this project. It will also be the
-  container for your Todo Components. All of your application data will be
-  stored here on <App />. All of your handler functions should live here on
-  <App />.
-- <TodoList /> receives your Todos array and iterates over the list generating a
-  new <Todo /> for each element in the array.
-- <Todo /> is a component that takes in the todo data and displays the task to
-  the screen.
-- <TodoForm> will hold your input field and your Add Todo button.
-- Your input field should take in user input, and allow a user to press Enter or
-  click on the Submit Button to add a todo to your list.
-- Once a todo is submitted, the Todo List should re-render and show the added
-  todo.
-- Add the functionality to toggle your todo's completed flag from false to true.
-- Once a todo is completed, be sure to demonstrate to the user that the todo is
-  completed by adding a line-through style property if the completed flag is
-  true.
+</details>
 
-<!-- Sample 1 Project Completion Instructions for app with single route Start End -->
+<details>
+<summary>Click to view the Implementation Files</summary>
+<!-- TODO: update the file names where the code should be added -->
 
-<!-- Sample 2 Project Completion Instructions with multiple routes Start -->
+- Your task is to complete the implementation of
+  - `src/App.js`
+  - `src/components/Home/index.js`
+  - `src/components/Home/index.css`
+  - `src/components/TeamCard/index.js`
+  - `src/components/TeamCard/index.css`
+  - `src/components/TeamMatches/index.js`
+  - `src/components/TeamMatches/index.css`
+  - `src/components/LatestMatch/index.js`
+  - `src/components/LatestMatch/index.css`
+  - `src/components/MatchCard/index.js`
+  - `src/components/MatchCard/index.css`
+  </details>
 
-### Routes Files
+#### Quick Tips
 
-Once you are done your application will have two routes:
+<details>
+<summary>Click to view Quick Tips</summary>
 
-- [ ] [Screenshot of route '/'](https://tk-assets.lambdaschool.com/b9ced241-681f-432a-9047-ef2ba7e34946_first-route.png)
-- [ ] [Screenshot of route '/movies/:id'](https://tk-assets.lambdaschool.com/06f9f448-2804-4b4a-9408-41904af96a4e_second-route.png)
+<!-- TODO: if there are any quick tips add them here else remove this section -->
 
-### Set up Routes
+  </details>
+  <br/>
 
-- [ ] Wrap your app with the router.
-- [ ] Inside your App file add two routes.
-  - [ ] one route for `/` that loads the `MovieList` component. This component
-        will need the movies injected into it via props.
-  - [ ] one route that will take an `id` parameter after`/movies/` (ex:
-        `/movies/2`, `/movies/3` where the id is dynamic). This route should
-        load the `Movie` component.
+> #### Important Note
+>
+> <details open>
+> <summary>Click to view Important Note Points</summary>
+>
+> **The following HTML attributes are required for the HTML for the tests to
+> pass**
+>
+> <!-- TODO: if there are any important points add them here else remove this section -->
+> 
+> </details>
 
-### Add Functionality
+### Resources
 
-- [ ] When a user clicks on the movie card inside `MovieList` they should be
-      taken to `/movies/{id of clicked movie here}` to see the details of the
-      selected movie.
-- [ ] You will need to modify line 7 of `Movie.js` to get the id of the selected
-      movie from the URL.
-- [ ] Add functionality so the `Home` button on the `SavedList` component
-      navigates back to home.
-- [ ] You should now be able to navigate back and forth between the list of
-      movies and the detailed view of a single movie.
+<details>
+<summary>Data fetch URLs</summary>
 
-<!-- Sample 2 Project Completion Instructions with multiple routes End -->
+#### Data Fetch URLs
 
-### Running the tests & Checking the report
+<!-- TODO: if there are any URL's to fetch data them here else remove this section -->
 
-- Run the tests using `npm test`. Read the output and play around with it. The
-  tests are there to help you reach the final version
-- However sometimes you can accomplish the task and the tests still fail if you
-  implement things differently than the given solution.
-- Submit the solution after you have reached the final version
-- Check the report generated here TODO: Need to improvise this section
+</details>
 
-## Resources
+<details>
+<summary>Image URLs</summary>
 
-- Use the images given in the `public/img` folder for backgrounds
-- CSS Colors used:
-  - #5a7184
-  - #959ead
-  - #19232d
-  - #eef0f2
-- API - `https://apis.ccbp.in/numbers-fact` - TODO: Deploy Add swagger spec url
-  if needed TODO: 6.Add Project Completion instructions, Resources - specific to
-  the Project
+#### Images
 
-### Project Comment Guide
+<!-- TODO: update the asset image URL's here -->
 
-Most comments in the project files start with one of the below signs. This is to
-help you understand what you should do to the code immediately following these
-comments.
+</details>
 
-🏆 - **Trophy** - Describes the overall goal of the exercise. You can find this
-at the top of the exercise file.
+<details>
+<summary>Colors</summary>
 
-💡 - **Light Bulb** - General information regarding the code immediately
-following this comment. You might find it throughout the code. No action is
-required on your part, just read them.
+#### Colors
 
-✏️ - **Pencil** - You are supposed to edit the code immediately following this
-comment. It is followed by a description of the change that you need to do.
+<!-- TODO: update the colors used -->
 
-🧭 - **Compass** - When the description of change is not enough, the compass
-will give you more direction. You will find it alongside the pencil when more
-elaborate instruction is deemed necessary.
+<br/>
 
-🚨 - **Alarm** - This means danger. Read the comment carefully. Usually, it's
-used to say you shouldn't change the code immediately following this. It will
-create havoc.
+#### Font-families
 
-### Tips to Keep in Mind (TODO: 7.Add Tips if any specific to this project)
+<!-- TODO: update the font families used -->
+- Bree Serif
 
-- All components you implement should go in the `src/components` directory.
-- Dont change the component folder names as those are the files being imported
-  into the tests.
-- The Icons used in this section are Font Awesome Icons. Find them here.
-- Want to quickly review some of the concepts you’ve been learning? Take a look
-  at the Cheat Sheets.
-- Install the
-  [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-  (Chrome (recommended))
-
-### [FAQ](https://gist.github.com/PavanGangireddy/f36bbb8e69dd54d921b464fe2601ab1a)
-
-TODO: 8.Update this FAQ's gist with s3 url. try to get from server if possible
-
-## Issues
-
-If you are facing any issues while setting up environment, feel free to open a
-issue in the learning portal.[TODO: 9.Add respective learning portal discussion
-link or think how to solve this]
+> ### _Things to Keep in Mind_
+>
+> - All components you implement should go in the `src/components` directory.
+> - Don't change the component folder names as those are the files being
+>   imported into the tests.
+> - **Do not remove the pre-filled code**
+> - Want to quickly review some of the concepts you’ve been learning? Take a
+>   look at the Cheat Sheets.

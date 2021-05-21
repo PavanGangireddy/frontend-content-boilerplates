@@ -16,8 +16,8 @@ In this assignment let's build a **IPL Dashboard App** by applying the concepts 
 <details>
 <summary>Click to view the Design Files</summary>
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - Home]()
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home]()
+- [Extra Small (Size < 576px) and Small (Size >= 576px)]()
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)]()
 
 </details>
 
@@ -111,11 +111,12 @@ The app must have the following functionalities
 <!-- TODO: update the colors used -->
 
 <br/>
+</details>
 
 #### Font-families
 
 <!-- TODO: update the font families used -->
-- Bree Serif
+- Roboto
 
 > ### _Things to Keep in Mind_
 >

@@ -1,14 +1,15 @@
 import {Component} from 'react'
 
+import './index.css'
+
 class Counter extends Component {
   render() {
-    const {counter} = this.state
     return (
       <div>
         <button type="button" onClick={this.onDecrement}>
           -
         </button>
-        <div>{counter} </div>
+        <div>0</div>
         <button type="button" onClick={this.onIncrement}>
           +
         </button>

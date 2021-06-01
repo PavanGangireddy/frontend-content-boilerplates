@@ -1,7 +1,7 @@
 <!-- TODO: update the app name and sentence based on whether it is assignment or practice or exam-->
 In this practice let's build a **IPL Dashboard App** by applying the concepts we have learned till now.
 
-### Refer to images below:
+### Refer to the image below:
 
 <!-- TODO: need to update output gif and alt text -->
 <br/>

@@ -45,6 +45,7 @@
     "react/no-unused-state": "warn",
     "react/button-has-type": "warn",
     "react/no-unescaped-entities": "warn",
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "operator-assignment": ["warn", "always"]
   }
 }

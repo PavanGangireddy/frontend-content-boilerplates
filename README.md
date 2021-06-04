@@ -1,5 +1,9 @@
 <!-- TODO: update the app name and sentence based on whether it is assignment or practice or exam-->
 In this practice let's build a **IPL Dashboard App** by applying the concepts we have learned till now.
+(or)
+In this assignment let's build a **IPL Dashboard App** by applying the concepts we have learned till now.
+(or)
+The goal of this coding exam is to quickly get you off the ground with DOM Manipulations.
 
 ### Refer to the image below:
 

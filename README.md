@@ -1,7 +1,11 @@
-<!-- TODO: update the app name -->
+<!-- TODO: update the app name and sentence based on whether it is assignment or practice or exam-->
+In this practice let's build a **IPL Dashboard App** by applying the concepts we have learned till now.
+(or)
 In this assignment let's build a **IPL Dashboard App** by applying the concepts we have learned till now.
+(or)
+The goal of this coding exam is to quickly get you off the ground with DOM Manipulations.
 
-### Refer to images below:
+### Refer to the image below:
 
 <!-- TODO: need to update output gif and alt text -->
 <br/>
@@ -61,6 +65,20 @@ The app must have the following functionalities
   - `src/components/Home/index.css`
   </details>
 
+<details>
+<summary>Click to view the Components Structure</summary>
+
+#### Components Structure
+
+<!-- TODO: update the component structure image if needed else remove the section -->
+<br/>
+<div style="text-align: center;">
+    <img src="" alt="" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+</div>
+<br/>
+
+</details>
+
 #### Quick Tips
 
 <details>
@@ -109,6 +127,8 @@ The app must have the following functionalities
 #### Colors
 
 <!-- TODO: update the colors used -->
+
+<div style="background-color: #fff1eb; width: 150px; padding: 10px; color: black">Hex: #fff1eb</div>
 
 <br/>
 </details>

@@ -87,20 +87,6 @@ If you complete the main features of the project you can try out the below featu
         API Prerequisites
     </IndexItem>
 </IndexList>
-
-- **Prerequisites**
-    - <details>
-        <summary>Click to view the list of API Prerequisites.</summary>
-      - **What is TMDb?**
-            - TMDb has an open API allowing people freely access the information programmatically. TMDb offers a powerful API service that is free to use as long as you properly attribute us as the source of the data and/or images you use. [Website](https://www.themoviedb.org/).
-      - **Create a Free account in TMDb**
-            - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=mbImkkJFxBs) video to create the TMDb Account to use the APIs.
-      - **How to Check CSS in Figma?**
-            - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=B242nuM3y2s) video to check CSS in the Figma screen.
-      - **API Key**
-            - After creating your free TMDb account. You can see your API Key (v3 auth) in [this](https://www.themoviedb.org/settings/api).
-            - After everything is successfully done, you should have an API key similar to `521a30043599bb08p45f4d9ff35fbad8`. This will be used to make further API requests.
-      </details>
 - **Note:-** Use the values in the APIs as shown below
     - Use your TMDB API Key (v3 auth) in place of `API_KEY`.
     - Use respective movie id in place of `MOVIE_ID`.

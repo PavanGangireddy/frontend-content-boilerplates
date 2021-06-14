@@ -73,22 +73,20 @@ If you complete the main features of the project you can try out the below featu
 
 ### UI References
 
-- **Prerequisites**
-  <details>
-  <summary>Click to view the list of UI Prerequisites.</summary>
-  - **What is Figma?**
-    - Figma is a vector graphics editor and prototyping tool which is primarily web-based. You can check more info on the [website](https://www.figma.com/).
-  - **Create a Free account in Figma**
-      - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=hrHL2VLMl7g&t=37s) video to create a Free Figma account.
-  - **How to Check CSS in Figma?**
-      - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=B242nuM3y2s) video to check CSS in the Figma screen.
-  - **Export Images in Figma screen**
-      - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=NpzL1MONwaw) video to export images from the Figma screen.
-      - Check [this](https://help.trydesignlab.com/hc/en-us/articles/360011010634-How-do-I-export-images-and-PDFs-from-Sketch-or-Figma-in-my-short-course-) reference docs to export images in Figma screen.
-  </details>
+<IndexList>
+    <IndexItem href="UIPrerequisites">
+        UI Prerequisites
+    </IndexItem>
+</IndexList>
 - [Netflix Figma](https://www.figma.com/file/tPdVlj0p5PESmymNkHYVgk/Netflix_Clone)
 
 ### API References
+
+<IndexList>
+    <IndexItem href="APIPrerequisites">
+        API Prerequisites
+    </IndexItem>
+</IndexList>
 
 - **Prerequisites**
     - <details>
@@ -196,9 +194,33 @@ https://image.tmdb.org/t/p/original/{poster_path}
     - React Slick [Documentation](https://react-slick.neostack.com/docs/get-started)
     - React Slick implementation [CodeSandbox](https://w7z4v.csb.app/)
 
-### Deployment
+<Section id="UIPrerequisites">
+### UI Prerequisites
+- **What is Figma?**
+    - Figma is a vector graphics editor and prototyping tool which is primarily web-based. You can check more info on the [website](https://www.figma.com/).
+- **Create a Free account in Figma**
+    - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=hrHL2VLMl7g&t=37s) video to create a Free Figma account.
+- **How to Check CSS in Figma?**
+    - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=B242nuM3y2s) video to check CSS in the Figma screen.
+- **Export Images in Figma screen**
+    - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=NpzL1MONwaw) video to export images from the Figma screen.
+    - Check [this](https://help.trydesignlab.com/hc/en-us/articles/360011010634-How-do-I-export-images-and-PDFs-from-Sketch-or-Figma-in-my-short-course-) reference docs to export images in Figma screen.
+</Section>
 
-You can publish your app to github(free) pages by following [this](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f) link.
+<Section id="APIPrerequisites">
+### API Prerequisites
+
+- **What is TMDb?**
+    - TMDb has an open API allowing people freely access the information programmatically. TMDb offers a powerful API service that is free to use as long as you properly attribute us as the source of the data and/or images you use. [Website](https://www.themoviedb.org/).
+- **Create a Free account in TMDb**
+    - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=mbImkkJFxBs) video to create the TMDb Account to use the APIs.
+- **How to Check CSS in Figma?**
+    - Kindly follow the instructions as shown in [this](https://www.youtube.com/watch?v=B242nuM3y2s) video to check CSS in the Figma screen.
+- **API Key**
+    - After creating your free TMDb account. You can see your API Key (v3 auth) in [this](https://www.themoviedb.org/settings/api).
+    - After everything is successfully done, you should have an API key similar to `521a30043599bb08p45f4d9ff35fbad8`. This will be used to make further API requests.
+</Section>
+
 
 > ### _Things to Keep in Mind_
 >
